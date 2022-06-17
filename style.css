@@ -1,13 +1,12 @@
 @font-face {
     font-family: 'SuncheonB';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
-    font-weight: bold;
-    font-style: bold;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 html{
     font-family: 'SuncheonB';
     font-size: 100%;
-    
     font-size: 1.2rem;
 }
 a{
@@ -68,6 +67,10 @@ article {
 
 /*  container  */
 
+.pic{
+    height: 100px;
+}
+
 
 .container{
     display: grid;
@@ -79,7 +82,6 @@ article {
 .item{
     width: 100%;
     height: 100%;
-    
     text-align: center;
 }
 
